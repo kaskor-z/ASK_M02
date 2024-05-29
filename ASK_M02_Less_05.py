@@ -1,6 +1,6 @@
 def get_matrix(n, m, value):
     matrix = []
-    if value <= 0:
+    if value <= 0 or (n <= 0) or (m <=0):
         return matrix
     internal_line = []
     for i in range(n):
