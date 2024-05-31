@@ -26,13 +26,7 @@ def parsing_divisors(divisors):
 
 
 list_n = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-# print('\nВсе пароли для чисел от 3 до 20 (для сверки):\n')
 n = int(input('\nВведите число для определения ключа : '))
-# i = 0
-# while i != (len(list_n)):
-#     n = list_n[i]
 divisor_ = def_divisors(n, list_n)
 keyword_ = parsing_divisors(divisor_)
 print('\nКодовая последовательнсть ключа для введённого числа = ',  n, '\n\n\t', keyword_)
-    # print('\t', list_n[i], '. -\t', keyword_)
-    # i += 1
